@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open('C:/Users/sr322/OneDrive/Desktop/ML_Model_Deployment/trained_model.sav','rb'))#load function is used to load the saved model
+loaded_model=pickle.load(open('trained_model.sav','rb'))#load function is used to load the saved model
 
 
 #creating a function for prediction
